@@ -1,5 +1,5 @@
 <h3> About this Project: 
-* I started this project with a partner during Week 2 of App Academy and finished it on my own at the end of the program.
+<h5>* I started this project with a partner during Week 2 of App Academy and finished it on my own at the end of the program.
 * The game is built using Ruby and contains a user interface and a simple Computer AI to play against.
 
 <h3> How to Run the Files:

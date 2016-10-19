@@ -1,5 +1,4 @@
 class NullPiece
-  # include Singleton
 
   def initialize(pos)
     @pos = pos

@@ -49,8 +49,8 @@ class Game
 
 end
 
-player1 = HumanPlayer.new("Henry", :black)
-player2 = ComputerPlayer.new("Danielle", :cyan)
+player1 = HumanPlayer.new("Human", :black)
+player2 = ComputerPlayer.new("Computer", :cyan)
 
 g = Game.new(player1,player2)
 g.play

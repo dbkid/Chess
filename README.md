@@ -1,9 +1,10 @@
-<h3> About this Project: 
+About this Project:
 
 * I started this project with a partner during Week 2 of App Academy and finished it on my own at the end of the program.
 * The game is built using Ruby and contains a user interface and a simple Computer AI to play against.
+* Currently the Computer will choose a move that captures its opponents piece (if possible). I am working to implement it so the Computer will choose the move that gives the computer the greatest gain in value from a captured piece, taking into account any loss in value the Computer may suffer as a direct result of the move.
 
-<h3> How to Run the Files:
+How to Run the Files:
 
 * You will need Ruby installed to run these files. You can find instructions for installing Ruby here.
 * Download and unzip the file.
@@ -11,7 +12,7 @@
 * Run the command $ bundle install in the terminal.
 * Run the command $ ruby chess.rb to start the game.
 
-<h3> How to Play:
+How to Play:
 
 * You go first and start the game as black (located on the top of the board). The computer starts the game as blue (located on the bottom of the board).
 * Navigate around the board using the arrow keys.

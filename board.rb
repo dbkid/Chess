@@ -11,14 +11,10 @@ class Board
 
   def move(start, end_pos)
 
-    # if @grid[start[0]][start[1]].class == NullPiece
-    #   raise NullPieceError.new "There is no piece at this position."
-    # end
     piece = @grid[start[0]][start[1]]
 
     if piece.valid_move?(end_pos)
       @grid[start[0]][start[1]] = NullPiece.new([start[0],start[1]])
-
       @grid[end_pos[0]][end_pos[1]] = piece
       piece.pos = end_pos.dup
     else
@@ -37,7 +33,6 @@ class Board
     @grid[start[0]][start[1]] = NullPiece.new([start[0],start[1]])
     @grid[end_pos[0]][end_pos[1]] = piece
     piece.pos = end_pos.dup
-
 
   end
 
@@ -81,7 +76,6 @@ class Board
     king_pos = nil
     @grid.each_with_index do |row,x|
       row.each_with_index do |piece,y|
-        #debugger
         if piece.class == King && piece.color == color
           king_pos = [x,y]
         end
@@ -91,7 +85,6 @@ class Board
         end
       end
     end
-
 
     opposing_moves = []
     other_side.each { |piece| opposing_moves += piece.moves  }
@@ -118,7 +111,6 @@ class Board
 
     dup_board
   end
-
 
 
 end

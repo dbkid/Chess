@@ -8,7 +8,6 @@ class HumanPlayer < Player
     until end_move
       pos = @display.render
       unless pos.nil?
-        #debugger
         if @board[pos].color == self.color
           start_pos = pos.dup
           have_piece = true

@@ -10,7 +10,7 @@ How to Run the Files:
 * Download and unzip the file.
 * Navigate to the folder in terminal.
 * Run the command $ bundle install in the terminal.
-* Run the command $ ruby chess.rb to start the game.
+* Run the command $ ruby game.rb to start the game.
 
 How to Play:
 

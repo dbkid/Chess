@@ -6,10 +6,9 @@ About this Project:
 
 How to Run the Files:
 
-* You will need Ruby installed to run these files. You can find instructions for installing Ruby here.
-* Download and unzip the file.
-* Navigate to the folder in terminal.
-* Run the command $ bundle install in the terminal.
+* You will need Ruby installed to run these files. You can find instructions for installing Ruby [here] (http://installrails.com/steps/choose_os).
+* Clone the repository and navigate to the folder "Chess" in your terminal.
+* Run the command $ bundle install in your terminal.
 * Run the command $ ruby game.rb to start the game.
 
 How to Play:

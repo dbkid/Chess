@@ -1,3 +1,5 @@
+![Game Screenshot](assets/game_screenshot.png)
+
 About this Project:
 
 * I started this project with a partner during Week 2 of App Academy and finished it on my own at the end of the program.
@@ -7,9 +9,11 @@ About this Project:
 How to Run the Files:
 
 * You will need Ruby installed to run these files. You can find instructions for installing Ruby [here] (http://installrails.com/steps/choose_os).
-* Clone the repository and navigate to the folder "Chess" in your terminal.
-* Run the command $ bundle install in your terminal.
+* Open your terminal and type: git clone https://github.com/dbkid/Chess.git
+* Navigate to the folder "Chess" by typing "cd Chess".
+* Run the command $ bundle install from within the Chess folder.
 * Run the command $ ruby game.rb to start the game.
+
 
 How to Play:
 
@@ -17,3 +21,5 @@ How to Play:
 * Navigate around the board using the arrow keys.
 * When you get to the piece you want to move, select the piece with the space bar. Navigate to where you want to move using the arrow keys. The piece will be dragged along with you. Hit the space bar again to place the piece where you want.
 * The computer will respond with its move.
+
+Features:

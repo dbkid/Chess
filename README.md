@@ -21,5 +21,3 @@ How to Play:
 * Navigate around the board using the arrow keys.
 * When you get to the piece you want to move, select the piece with the space bar. Navigate to where you want to move using the arrow keys. The piece will be dragged along with you. Hit the space bar again to place the piece where you want.
 * The computer will respond with its move.
-
-Features:

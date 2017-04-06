@@ -6,6 +6,8 @@ About this Project:
 * The game is built using Ruby and contains a user interface and a simple Computer AI to play against.
 * Currently the Computer will choose a move that captures its opponents piece (if possible). I am working to implement it so the Computer will choose the move that gives the computer the greatest gain in value from a captured piece, taking into account any loss in value the Computer may suffer as a direct result of the move.
 
+This is the current code that selects a move for the computer:
+
 ![Computer AI](assets/computer_ai.png)
 
 How to Run the Files:

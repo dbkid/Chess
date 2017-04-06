@@ -1,5 +1,5 @@
-require_relative "display"
-require_relative "players"
+require_relative "board/display"
+require_relative "players/players"
 
 class Game
 
